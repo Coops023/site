@@ -1,0 +1,17 @@
+.about-content {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 1.8em;
+}
+
+.about-heading {
+  font-family: "Poppins";
+  margin-top: 20px;
+}
+
+.about-paragraph {
+  font-family: "pt-sans";
+  font-size: 1.2em;
+}
