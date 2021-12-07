@@ -13,17 +13,19 @@ export default function Footer() {
           {" "}
           <FontAwesomeIcon icon={faCopyright} /> 2021
         </div>
-        <a href="/about">Cooper Bjokelund</a>
+        <a className="footer-link" href="/about">
+          Cooper Bjokelund
+        </a>
       </span>
 
       <span className="socials">
         Socials
-        <div>
+        <div className="social-icon-wrap">
           {" "}
-          <a href="">
+          <a className="footer-link" href="">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a href="">
+          <a className="footer-link" href="">
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>

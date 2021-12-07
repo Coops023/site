@@ -3,6 +3,7 @@
   justify-content: left;
   flex-direction: column;
   text-align: left;
+  height: 100vh;
 }
 
 .about-heading {

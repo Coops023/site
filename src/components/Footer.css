@@ -1,9 +1,27 @@
 .footer {
   display: flex;
   justify-content: space-evenly;
+  border-top: 1px solid #14213d;
+  height: 8em;
+  align-items: center;
+  font-size: 1.4em;
 }
 
 .copywrite {
   display: flex;
   flex-direction: column;
+  color: white;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+}
+
+.social-icon-wrap {
+  width: 5em;
+
+  display: flex;
+  justify-content: space-evenly;
 }

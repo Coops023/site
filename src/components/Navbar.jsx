@@ -7,7 +7,7 @@ export default function Navbar() {
     <>
       <nav className="navbar navbar-dark ">
         <div className="container-fluid">
-          <NavLink className="navbar-brand" to="/about">
+          <NavLink className="navbar-brand" to="/">
             <img
               src="headshot.jpg"
               alt=""
@@ -18,11 +18,7 @@ export default function Navbar() {
           </NavLink>
           <ul className="nav justify-content-end">
             <li className="nav-item">
-              <NavLink
-                className="nav-link active"
-                aria-current="page"
-                to="/about"
-              >
+              <NavLink className="nav-link active" aria-current="page" to="/">
                 About
               </NavLink>
             </li>
