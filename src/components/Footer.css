@@ -1,0 +1,9 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.copywrite {
+  display: flex;
+  flex-direction: column;
+}

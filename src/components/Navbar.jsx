@@ -5,7 +5,7 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <>
-      <nav class="navbar navbar-light bg-light">
+      <nav className="navbar navbar-dark ">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/about">
             <img
