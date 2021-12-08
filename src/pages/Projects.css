@@ -1,0 +1,47 @@
+.project-wrap {
+  text-align: left;
+  width: 100%;
+}
+
+p {
+  font-size: 1.6em;
+}
+
+.project-title {
+  margin-left: 1.5em;
+}
+
+.clearfix {
+  margin: 2em 3em;
+}
+
+.img {
+  width: 20em;
+}
+
+.img-weather-app {
+  width: 12em;
+}
+
+@media screen and (max-width: 500px) {
+  .clearfix {
+    margin: 1em 1.5em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
+  .img {
+    width: 17em;
+  }
+  .project-title {
+    margin-left: 1em;
+  }
+
+  .img-weather-app {
+    width: 9em;
+  }
+}

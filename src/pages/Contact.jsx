@@ -23,7 +23,7 @@ export const Contact = () => {
     e.preventDefault();
 
     if (name === "" || email === "" || message === "") {
-      showModal();
+      console.log("form must be filled out");
     } else {
       emailjs
         .sendForm(
@@ -40,6 +40,7 @@ export const Contact = () => {
             console.log(error.text);
           }
         );
+      showModal();
       setName("");
       setEmail("");
       setMessage("");
@@ -76,6 +77,7 @@ export const Contact = () => {
               placeholder="Your name"
               value={name}
               onChange={handleNameChange}
+              required="true"
             />
             <label className="form-label">Email</label>
             <input
@@ -85,6 +87,7 @@ export const Contact = () => {
               placeholder="example@gmail.com"
               value={email}
               onChange={handleEmailChange}
+              required="true"
             />
             <label className="form-label">Message</label>
             <textarea
@@ -93,6 +96,7 @@ export const Contact = () => {
               placeholder="leave a message!"
               value={message}
               onChange={handleMessageChange}
+              required="true"
             />
             <button
               className="form-button"
@@ -105,11 +109,14 @@ export const Contact = () => {
             </button>
             <Modal show={isOpen} onHide={hideModal}>
               <Modal.Header>
-                <Modal.Title>Error!</Modal.Title>
+                <Modal.Title>Success!</Modal.Title>
               </Modal.Header>
-              <Modal.Body>Error: fill all fields</Modal.Body>
+              <Modal.Body>
+                Thanks for your message, i will get back to you as soon as
+                possible!
+              </Modal.Body>
               <Modal.Footer>
-                <button onClick={hideModal}>Hide</button>
+                <button onClick={hideModal}>Close</button>
               </Modal.Footer>
             </Modal>
           </form>

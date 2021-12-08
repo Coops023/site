@@ -13,7 +13,7 @@ export default function Footer() {
           {" "}
           <FontAwesomeIcon icon={faCopyright} /> 2021
         </div>
-        <a className="footer-link" href="/about">
+        <a className="footer-link" href="/">
           Cooper Bjokelund
         </a>
       </span>
@@ -22,10 +22,13 @@ export default function Footer() {
         Socials
         <div className="social-icon-wrap">
           {" "}
-          <a className="footer-link" href="">
+          <a
+            className="footer-link"
+            href="https://www.linkedin.com/in/cooper-bjorkelund/"
+          >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a className="footer-link" href="">
+          <a className="footer-link" href="https://github.com/Coops023">
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
