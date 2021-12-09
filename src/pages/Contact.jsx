@@ -63,10 +63,8 @@ export const Contact = () => {
         <div class="content col-12">
           <h1 className="heading">Want to get in-touch?</h1>
           <p className="paragraph">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
-            molestiae excepturi incidunt, laborum provident quasi aliquam
-            repellat perspiciatis, totam iusto dicta! Saepe suscipit ipsum
-            explicabo vel aut possimus quod incidunt.
+            Leave your details in the form below along with a short message and
+            i will get back to you as soon as possible.
           </p>
           <form className="contact-form" ref={form} onSubmit={sendEmail}>
             <label className="form-label">Name</label>

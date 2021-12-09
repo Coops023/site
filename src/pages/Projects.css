@@ -23,6 +23,14 @@ p {
   width: 12em;
 }
 
+a {
+  color: #0a9396;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+
 @media screen and (max-width: 500px) {
   .clearfix {
     margin: 1em 1.5em;
