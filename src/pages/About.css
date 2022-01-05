@@ -1,39 +1,24 @@
+.container {
+  margin: 1.3em !important;
+}
+
 .about-content {
   display: flex;
-  justify-content: left;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: row;
   text-align: left;
+  margin: 0;
 }
 
 .about-heading {
   font-family: "Poppins";
   margin-top: 20px;
-  color: #0a9396;
+  color: white;
 }
 
 .about-paragraph {
   font-family: "pt-sans";
   font-size: 1.5em;
-}
-
-.about-img-wrap {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-
-.single-img-wrap {
-  display: flex;
-  flex-direction: column;
-}
-
-.img-text {
-  margin: 0 15px 20px 15px;
-}
-
-.img-about {
-  width: 15em !important;
-  height: 20em;
 }
 
 .contact-span {
@@ -45,16 +30,4 @@
 }
 
 @media screen and (max-width: 500px) {
-  .img-about {
-    margin: auto;
-  }
-  .img-text {
-    margin: 15px auto;
-  }
-  .about-img-wrap {
-    width: 100%;
-    flex-direction: column;
-
-    align-items: center;
-  }
 }

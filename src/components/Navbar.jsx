@@ -8,12 +8,6 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
-            <img
-              src="headshot.jpg"
-              alt=""
-              width="70"
-              className="d-inline-block align-text-top"
-            />
             <h2 className="name-logo">Cooper Bjorkelund</h2>
           </NavLink>
           <button
