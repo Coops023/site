@@ -22,7 +22,7 @@ export default function About() {
           </p>
         </div>
 
-        <img src="./me-img.png" alt="an image of a man" />
+        <img className="home-img" src="./me-img.png" alt="an image of a man" />
       </div>
     </div>
   );

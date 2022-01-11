@@ -1,7 +1,7 @@
 .navbar {
   background-color: #001219;
   color: white;
-  margin: 1em 1.8em;
+  margin: 0.8em 2.3em;
 }
 .nav-link {
   color: white !important;
@@ -54,6 +54,10 @@
     font-size: 0.8em;
   }
   .nav-link {
-    font-size: 1em;
+    font-size: 0.8em;
+  }
+
+  .navbar {
+    margin: 0.8em 1.5em;
   }
 }

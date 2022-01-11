@@ -13,11 +13,11 @@ function App() {
       <header className="App-header">
         <Navbar />
       </header>
-
-      <About />
-      <Projects />
-      <Contact />
-
+      <Routes>
+        <Route exact path="/" element={<About />} />
+        <Route exact path="/projects" element={<Projects />} />
+        <Route exact path="/contact" element={<Contact />} />
+      </Routes>
       <Footer />
     </div>
   );

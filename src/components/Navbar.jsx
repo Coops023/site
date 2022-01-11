@@ -22,10 +22,10 @@ export default function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse justify-content-end"
+            className="navlink-wrap collapse navbar-collapse justify-content-end"
             id="navbarTogglerDemo02"
           >
-            <ul className="nav justify-content-end">
+            <ul className="nav justify-content-center">
               <li className="nav-item">
                 <NavLink className="nav-link active" aria-current="page" to="/">
                   About

@@ -20,7 +20,7 @@
 
 .about-paragraph {
   font-family: "pt-sans";
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 
 .contact-span {
@@ -31,5 +31,32 @@
   color: #0a9396;
 }
 
+.home-img {
+  width: 24em;
+}
+
 @media screen and (max-width: 500px) {
+  .home-img {
+    width: 6em;
+    position: absolute;
+    top: 135px;
+    right: 15px;
+    border-radius: 1em;
+  }
+
+  .about-paragraph {
+    font-size: 1em;
+    text-align: left;
+    width: 100%;
+  }
+
+  .about-heading {
+    font-size: 2em;
+  }
+
+  .about-content {
+    width: 100%;
+    justify-content: left;
+    margin-left: 2.3em;
+  }
 }
