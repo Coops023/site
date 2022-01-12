@@ -37,26 +37,25 @@
 
 @media screen and (max-width: 500px) {
   .home-img {
-    width: 6em;
-    position: absolute;
-    top: 135px;
-    right: 15px;
-    border-radius: 1em;
+    width: 0;
   }
 
   .about-paragraph {
     font-size: 1em;
     text-align: left;
-    width: 100%;
+    width: 18em;
+    margin: 0 2.6em;
   }
 
   .about-heading {
     font-size: 2em;
+    width: 10em;
+    margin: 0.5em 1.3em;
   }
 
   .about-content {
+    justify-content: center;
+    display: block;
     width: 100%;
-    justify-content: left;
-    margin-left: 2.3em;
   }
 }

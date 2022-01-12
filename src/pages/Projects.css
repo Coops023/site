@@ -3,12 +3,32 @@
   width: 100%;
 }
 
-p {
-  font-size: 1.6em;
+.project-content {
+  display: flex;
+  margin: 5em 0;
 }
 
-.project-title {
-  margin-left: 1.5em;
+.proj-heading {
+  font-size: 3em;
+  margin: auto;
+  padding: 0 2.7em;
+}
+
+.tech-list {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  margin-left: 6.5em;
+}
+
+li {
+  padding-right: 10px;
+}
+
+.project-para {
+  font-size: 1.7em;
+  margin: auto;
+  padding: 0 5em;
 }
 
 .clearfix {
@@ -23,12 +43,23 @@ p {
   width: 12em;
 }
 
-a {
-  color: #0a9396;
-  text-decoration: none;
+.button-wrap {
+  margin-top: 1em;
 }
-a:hover {
+
+.button {
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 0.3em;
+  background-color: white;
+  margin-right: 1.3em;
+}
+.button:nth-of-type(2n) {
   color: white;
+  background-color: black;
+  border: 1px solid white;
 }
 
 @media screen and (max-width: 500px) {
