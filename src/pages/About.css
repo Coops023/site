@@ -56,7 +56,7 @@
 }
 
 .home-img {
-  width: 24em;
+  width: 23em;
 }
 
 @media screen and (max-width: 800px) {
@@ -65,11 +65,25 @@
     flex-direction: column;
   }
 
+  .about-paragraph {
+    font-size: 1em;
+  }
+
+  .home-img {
+    width: 19em;
+  }
+
   .about-text-wrap {
     width: 100%;
   }
 
   .gradient {
     display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contact-btn {
+    font-size: 0.8em;
   }
 }
