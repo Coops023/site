@@ -1,8 +1,33 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import "./Navbar.css";
+import { scroller } from "react-scroll";
 
 export default function Navbar() {
+  const scrollToProjects = () => {
+    scroller.scrollTo("project-content", {
+      duration: 300,
+      delay: 0,
+      smooth: "easeInQuad",
+    });
+  };
+
+  const scrollToContact = () => {
+    scroller.scrollTo("container", {
+      duration: 100,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
+
+  const scrollToAbout = () => {
+    scroller.scrollTo("project-content", {
+      duration: 300,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
+
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark">
@@ -35,7 +60,8 @@ export default function Navbar() {
                 <NavLink
                   className="nav-link active"
                   aria-current="page"
-                  to="/projects"
+                  to="projects"
+                  onClick={scrollToProjects}
                 >
                   Projects
                 </NavLink>
@@ -45,6 +71,7 @@ export default function Navbar() {
                   className="nav-link active"
                   aria-current="page"
                   to="/contact"
+                  onClick={scrollToContact}
                 >
                   Contact
                 </NavLink>

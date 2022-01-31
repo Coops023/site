@@ -2,10 +2,19 @@ import React from "react";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopyright, faLink } from "@fortawesome/free-solid-svg-icons";
-
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { scroller } from "react-scroll";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
+  const scrollToAbout = () => {
+    scroller.scrollTo("navbar", {
+      duration: 150,
+      delay: 0,
+      smooth: "linear",
+    });
+  };
+
   return (
     <div className="footer">
       <span className="copywrite">
@@ -13,9 +22,9 @@ export default function Footer() {
           {" "}
           <FontAwesomeIcon icon={faCopyright} /> 2021
         </div>
-        <a className="footer-link" href="/">
+        <Link className="footer-link" to="/" onClick={scrollToAbout}>
           Cooper Bjokelund
-        </a>
+        </Link>
       </span>
 
       <span className="socials">

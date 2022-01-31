@@ -7,7 +7,7 @@ export default function Projects() {
       <div className="project-content">
         <div className="proj-text">
           <h2 className="proj-heading">Vine Vibe</h2>
-          <ul className="tech-list">
+          <ul className="tech-list-1 tech-list">
             <li>NodeJs</li>
             <li>ExpressJs</li>
             <li>React</li>
@@ -40,12 +40,12 @@ export default function Projects() {
       <div className="project-content">
         <img
           src="./what-t-fridge.png"
-          className="project-img"
+          className="project-img project-img-fr"
           alt="screenshot of vinevibe page"
         />
         <div className="proj-text">
           <h2 className="proj-heading">What the fridge</h2>
-          <ul className="tech-list">
+          <ul className="tech-list-2 tech-list">
             <li>NodeJs</li>
             <li>ExpressJs</li>
             <li>React</li>
@@ -72,7 +72,7 @@ export default function Projects() {
       <div className="project-content">
         <div className="proj-text">
           <h2 className="proj-heading">Free solo viking</h2>
-          <ul className="tech-list">
+          <ul className="tech-list-3 tech-list">
             <li>NodeJs</li>
             <li>ExpressJs</li>
             <li>React</li>

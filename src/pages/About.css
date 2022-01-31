@@ -17,6 +17,14 @@
   justify-content: center;
 }
 
+.gradient {
+  width: 45%;
+  height: 100px;
+  background: linear-gradient(#0000, #001219);
+  position: absolute;
+  top: 29.5em;
+}
+
 .about-heading {
   font-family: "Poppins";
   font-size: 4.9em;
@@ -39,36 +47,31 @@
   background-color: white;
   margin-right: 1.3em;
 }
-
-.contact-span:hover {
-  color: #0a9396;
+.contact-btn:nth-child(2n) {
+  color: white;
+  text-decoration: none;
+  border: 0.5px solid white;
+  padding: 5px 10px;
+  border-radius: 0.3em;
+  background-color: black;
+  margin-right: 1.3em;
 }
 
 .home-img {
   width: 24em;
 }
 
-@media screen and (max-width: 500px) {
-  .home-img {
-    width: 0;
-  }
-
-  .about-paragraph {
-    font-size: 1em;
-    text-align: left;
-    width: 18em;
-    margin: 0 2.6em;
-  }
-
-  .about-heading {
-    font-size: 2em;
-    width: 10em;
-    margin: 0.5em 1.3em;
-  }
-
+@media screen and (max-width: 800px) {
   .about-content {
-    justify-content: center;
-    display: block;
+    align-items: left !important;
+    flex-direction: column;
+  }
+
+  .about-text-wrap {
     width: 100%;
+  }
+
+  .gradient {
+    display: none;
   }
 }

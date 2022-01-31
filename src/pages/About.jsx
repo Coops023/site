@@ -1,7 +1,25 @@
 import React from "react";
 import "./About.css";
+import { scroller } from "react-scroll";
+import { Link } from "react-router-dom";
 
 export default function About() {
+  const scrollToContact = () => {
+    scroller.scrollTo("contact-form", {
+      duration: 100,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
+
+  const scrollToProjects = () => {
+    scroller.scrollTo("project-content", {
+      duration: 300,
+      delay: 0,
+      smooth: "easeInQuad",
+    });
+  };
+
   return (
     <div>
       <div class="about-content">
@@ -16,9 +34,16 @@ export default function About() {
             what I want to get by reading this and experience. i would love to
             hear from you.
           </p>
-          <a className="contact-btn" href="/contact">
-            contact with me
-          </a>
+          <Link className="contact-btn" to="/contact" onClick={scrollToContact}>
+            Contact me!
+          </Link>
+          <Link
+            className="contact-btn"
+            to="/contact"
+            onClick={scrollToProjects}
+          >
+            Take a look at my work
+          </Link>
         </div>
         <div className="about-img-container">
           <img
@@ -26,6 +51,7 @@ export default function About() {
             src="./me-img.png"
             alt="an image of a man"
           />
+          <div className="gradient"></div>
         </div>
       </div>
     </div>

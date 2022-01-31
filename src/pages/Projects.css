@@ -13,6 +13,18 @@
   margin: auto;
 }
 
+.tech-list-1 {
+  color: #cca677;
+}
+
+.tech-list-2 {
+  color: #e9a1ff;
+}
+
+.tech-list-3 {
+  color: #457b9d;
+}
+
 .proj-text:nth-of-type(1n) {
   margin-left: 2.5em;
   margin-right: 3em;
@@ -57,25 +69,17 @@ li {
   border: 1px solid white;
 }
 
-@media screen and (max-width: 500px) {
-  .clearfix {
-    margin: 1em 1.5em;
-    display: flex;
+@media screen and (max-width: 800px) {
+  .project-content {
     flex-direction: column;
   }
 
-  p {
-    font-size: 1.5em;
+  .project-img {
+    width: 80%;
+    margin: 2.5em;
   }
 
-  .img {
-    width: 17em;
-  }
-  .project-title {
-    margin-left: 1em;
-  }
-
-  .img-weather-app {
-    width: 9em;
+  .project-img-fr {
+    order: 1;
   }
 }
