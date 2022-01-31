@@ -1,7 +1,6 @@
 .navbar {
   background-color: #001219;
   color: white;
-  margin: 0.8em 2.3em;
 }
 .nav-link {
   color: white !important;
@@ -38,13 +37,12 @@
 
 .d-inline-block {
   border-radius: 50%;
-  margin-left: 0.8em;
+  /* margin-left: 0.8em; */
 }
 
 .name-logo {
   display: inline;
-  position: relative;
-  left: 0.5em;
+
   font-family: "Poppins";
   font-size: 1em;
 }

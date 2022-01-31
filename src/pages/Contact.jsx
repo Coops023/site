@@ -59,65 +59,62 @@ export const Contact = () => {
 
   return (
     <div className="container">
-      <div class="row">
-        <div class="content col-12">
-          <h1 className="heading">Want to get in-touch?</h1>
-          <p className="paragraph">
-            Leave your details in the form below along with a short message and
-            i will get back to you as soon as possible.
-          </p>
-          <form className="contact-form" ref={form} onSubmit={sendEmail}>
-            <label className="form-label">Name</label>
-            <input
-              className="form-input"
-              type="text"
-              name="name"
-              placeholder="Your name"
-              value={name}
-              onChange={handleNameChange}
-              required="true"
-            />
-            <label className="form-label">Email</label>
-            <input
-              className="form-input"
-              type="email"
-              name="email"
-              placeholder="example@gmail.com"
-              value={email}
-              onChange={handleEmailChange}
-              required="true"
-            />
-            <label className="form-label">Message</label>
-            <textarea
-              className="message-input"
-              name="message"
-              placeholder="leave a message!"
-              value={message}
-              onChange={handleMessageChange}
-              required="true"
-            />
-            <button
-              className="form-button"
-              type="submit"
-              value="Send"
-              data-bs-toggle="modal"
-              data-bs-target="#staticBackdrop"
-            >
-              Send Message
-            </button>
-            <Modal show={isOpen} onHide={hideModal}>
-              <Modal.Header>
-                <Modal.Title>Success!</Modal.Title>
-              </Modal.Header>
-              <Modal.Body>
-                Thanks for your message, i will get back to you as soon as
-                possible!
-              </Modal.Body>
-              <Modal.Footer>
-                <button onClick={hideModal}>Close</button>
-              </Modal.Footer>
-            </Modal>
-          </form>
+      <h1 className="heading">Lets connect!</h1>
+      <div className="form-wrap">
+        <form className="contact-form" ref={form} onSubmit={sendEmail}>
+          <label className="form-label">Name</label>
+          <input
+            className="form-input"
+            type="text"
+            name="name"
+            placeholder="Your name"
+            value={name}
+            onChange={handleNameChange}
+            required="true"
+          />
+          <label className="form-label">Email</label>
+          <input
+            className="form-input"
+            type="email"
+            name="email"
+            placeholder="example@gmail.com"
+            value={email}
+            onChange={handleEmailChange}
+            required="true"
+          />
+          <label className="form-label">Message</label>
+          <textarea
+            className="message-input"
+            name="message"
+            placeholder="leave a message!"
+            value={message}
+            onChange={handleMessageChange}
+            required="true"
+          />
+          <button
+            className="form-button"
+            type="submit"
+            value="Send"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+            Send Message
+          </button>
+          <Modal show={isOpen} onHide={hideModal}>
+            <Modal.Header>
+              <Modal.Title>Success!</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              Thanks for your message, i will get back to you as soon as
+              possible!
+            </Modal.Body>
+            <Modal.Footer>
+              <button onClick={hideModal}>Close</button>
+            </Modal.Footer>
+          </Modal>
+        </form>
+        <div className="img-wrap">
+          <img className="email-img" src="./email.png" alt="email image" />
         </div>
       </div>
     </div>

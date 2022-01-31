@@ -5,42 +5,37 @@
 
 .project-content {
   display: flex;
-  margin: 5em 0;
+  margin-top: 5em;
 }
 
 .proj-heading {
   font-size: 3em;
   margin: auto;
-  padding: 0 2.7em;
+}
+
+.proj-text:nth-of-type(1n) {
+  margin-left: 2.5em;
+  margin-right: 3em;
 }
 
 .tech-list {
   text-decoration: none;
   list-style: none;
   display: flex;
-  margin-left: 6.5em;
+  padding: 0;
 }
 
 li {
-  padding-right: 10px;
+  padding-right: 8px;
 }
 
 .project-para {
-  font-size: 1.7em;
+  font-size: 1em;
   margin: auto;
-  padding: 0 5em;
 }
 
-.clearfix {
-  margin: 2em 3em;
-}
-
-.img {
-  width: 20em;
-}
-
-.img-weather-app {
-  width: 12em;
+.project-img {
+  width: 50%;
 }
 
 .button-wrap {
