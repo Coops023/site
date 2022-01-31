@@ -74,6 +74,10 @@ li {
     flex-direction: column;
   }
 
+  .tech-list {
+    font-size: 0.75em;
+  }
+
   .project-img {
     width: 80%;
     margin: 2.5em;

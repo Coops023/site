@@ -8,21 +8,22 @@ export default function Projects() {
         <div className="proj-text">
           <h2 className="proj-heading">Vine Vibe</h2>
           <ul className="tech-list-1 tech-list">
-            <li>NodeJs</li>
-            <li>ExpressJs</li>
+            <li>Node</li>
+            <li>Express</li>
             <li>React</li>
+            <li>Axios</li>
+            <li>JavaScript</li>
             <li>HTML</li>
             <li>CSS</li>
           </ul>
           <p className="project-para">
-            My role during this project was mostly working on the back-end logic
-            of the app, and some small parts in the front-end. We worked on this
-            project for 7 days in total, it was a great experience learning to
-            work together in team. take a look for yourself.
+            Your virtual wine cellar. We decided to create a virtual wine cellar
+            where we could virtually store all of the wines we loved, and hoard
+            all of the ones we hadn’t tried yet!
             <div className="button-wrap">
               <a className="button" href="https://vinevibe.herokuapp.com/">
                 {" "}
-                Heroku deployment,{" "}
+                Heroku deployment{" "}
               </a>{" "}
               <a className="button" href="https://github.com/VineVibe/VineVibe">
                 Github
@@ -46,23 +47,30 @@ export default function Projects() {
         <div className="proj-text">
           <h2 className="proj-heading">What the fridge</h2>
           <ul className="tech-list-2 tech-list">
-            <li>NodeJs</li>
-            <li>ExpressJs</li>
-            <li>React</li>
+            <li>Node</li>
+            <li>Express</li>
+            <li>Axios</li>
+            <li>JavaScript</li>
             <li>HTML</li>
             <li>CSS</li>
           </ul>
           <p className="project-para">
-            My role during this project was mostly working on the back-end logic
-            of the app, and some small parts in the front-end. We worked on this
-            project for 7 days in total, it was a great experience learning to
-            work together in team. take a look for yourself.
+            Want to make dinner with the few items you have lying around at
+            home? What the fridge is for you. Save your items into your virtual
+            fridge hit search and you will be sent back some recipe's you can
+            make!
             <div className="button-wrap">
-              <a className="button" href="https://vinevibe.herokuapp.com/">
+              <a
+                className="button"
+                href="https://what-the-fridge-coop.herokuapp.com/"
+              >
                 {" "}
-                Heroku deployment,{" "}
+                Heroku deployment{" "}
               </a>{" "}
-              <a className="button" href="https://github.com/VineVibe/VineVibe">
+              <a
+                className="button"
+                href="https://github.com/Coops023/project-2-What-the-fridge"
+              >
                 Github
               </a>
             </div>
@@ -73,23 +81,26 @@ export default function Projects() {
         <div className="proj-text">
           <h2 className="proj-heading">Free solo viking</h2>
           <ul className="tech-list-3 tech-list">
-            <li>NodeJs</li>
-            <li>ExpressJs</li>
-            <li>React</li>
+            <li>Javascript</li>
             <li>HTML</li>
             <li>CSS</li>
           </ul>
           <p className="project-para">
-            My role during this project was mostly working on the back-end logic
-            of the app, and some small parts in the front-end. We worked on this
-            project for 7 days in total, it was a great experience learning to
-            work together in team. take a look for yourself.
+            Scale the cliff dodging falling rock's and collecting food for bonus
+            points! Free solo viking is a rock-climbing game created using HTML
+            canvas and Javascript. check it out!
             <div className="button-wrap">
-              <a className="button" href="https://vinevibe.herokuapp.com/">
+              <a
+                className="button"
+                href="https://coops023.github.io/Free-Solo-viking/#"
+              >
                 {" "}
-                Heroku deployment,{" "}
+                Deployment{" "}
               </a>{" "}
-              <a className="button" href="https://github.com/VineVibe/VineVibe">
+              <a
+                className="button"
+                href="https://github.com/Coops023/Free-Solo-viking"
+              >
                 Github
               </a>
             </div>

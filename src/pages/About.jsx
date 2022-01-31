@@ -27,12 +27,9 @@ export default function About() {
           <h1 className="about-heading">Hey, Im Cooper</h1>
 
           <p className="about-paragraph">
-            I’m an amazing full stack web developer, bla bla bla. Saying in the
-            first lines that you are a recently graduate is not that sexy :) You
-            gotta sell yourself better. Again not what you’ve learned,
-            technologies that you’re using in your workflow. Confidence this is
-            what I want to get by reading this and experience. i would love to
-            hear from you.
+            I am an Australian web developer based in Amsterdam. I enjoy
+            building things with React JS, rock climbing and travelling.
+            Interested in knowing more or working together?
           </p>
           <Link className="contact-btn" to="/contact" onClick={scrollToContact}>
             Contact me!
